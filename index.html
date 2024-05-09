@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    //print 0 to 10  even numbers
+for(i=0;i<=10;i+=2){
+    console.log(i);//0 2 4 6 8 10
+}
+
+//print 2 table
+for(i=1;i<=10;i++){
+    console.log(i*2);
+}
+
+//print 0 to 10 even numbers using do while loop
+var a=0;
+do{
+console.log(a);
+a+=2;
+}while(a<=10)// 0 2 4 6 8 10
+
+//print reverse 10 to 0 using while loop
+var a=10;
+while(a>=0){
+    console.log(a);
+    a--;//10 9 8 7 6 5 4 3 2 1 0
+}
+//print reverse 10 to 0 using for loop
+var a=11;
+for(a>=0;a--;){
+    console.log(a);// 10 9 8 7 6 5 4 3 2 1 0
+}
+//print reverse 10 to 0 using do while loop
+var a=10;
+do{
+    console.log(a);
+    a--;
+}while(a>=0)//10 9 8 7 6 5 4 3 2 1 0
+
+//print 3 table using while loop
+var a=1;
+while(a<=10){
+    console.log(a*3);
+    a++;
+}//3 6 9 12 15 18 21 24 27 30
+
+//print 4 table using do while loop
+var a=1;
+do{
+    console.log(a*4);
+    a++;
+}while(a<=10)// 4 8 12 16 20 24 28 32 36 40
+
+//print 0 to 10 using for loop
+for(i=0;i<=10;i++){
+    console.log(i);
+}//0 1 2 3 4 5 6 7 8 9 10
+
+//print 0 to 10 using while loop
+var i=0;
+while(i<=10){
+    console.log(i);
+    i++;
+}
+//print 0 to 10 using do while loop
+var i=0;
+do{
+    console.log(i);
+    i++;
+}while(i<=10)
+
+//given problem
+var a=10;
+while(a<20){
+    a++;
+    console.log(a);
+}//11 12 13 14 15 16 17 18 19 
+
+//given problem
+var a=0;
+while(a<20){
+    a+=3;
+    console.log(a);
+    a++;
+}// 3 7 11 15 19
+
+//print even numbers using ternary operator
+for (var i = 0; i <= 10; i++) {
+    (i % 2 === 0) ? console.log(i) : null;
+}
+</script>
+
+</body>
+</html>
