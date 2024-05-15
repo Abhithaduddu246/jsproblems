@@ -148,90 +148,136 @@
 
 // }
 
-//display a value
-var a=20;
-        console.log(a);
+// //display a value
+// var a=20;
+//         console.log(a);
 
-//6 table using for loop
-        var i=6;
-        for(i=1;i<=10;i++)
-        {
-            console.log(i*6);
-        }
+// //6 table using for loop
+//         var i=6;
+//         for(i=1;i<=10;i++)
+//         {
+//             console.log(i*6);
+//         }
 
-//display 0 to 20 numbers
-        for(i=0;i<=20;i++)
-        {
-            console.log(i);
-        }
+// //display 0 to 20 numbers
+//         for(i=0;i<=20;i++)
+//         {
+//             console.log(i);
+//         }
 
-// check the condition ternary
-      var a=2;
-      var age=(a>=18)?"u are an adult":"u are not an adult";
-      console.log(age);//u are an adult
+// // check the condition ternary
+//       var a=2;
+//       var age=(a>=18)?"u are an adult":"u are not an adult";
+//       console.log(age);//u are an adult
 
-// check zero is true or false
+// // check zero is true or false
     
-    var cum=(a=0)?true:false;
-    console.log(cum);// false
+//     var cum=(a=0)?true:false;
+//     console.log(cum);// false
 
-//  check non zero is true or false
-    var cum=(a=2)?true:false;
-    console.log(cum);//true
+// //  check non zero is true or false
+//     var cum=(a=2)?true:false;
+//     console.log(cum);//true
 
-// check "" is true or false
-    var tum=(a="")?true:false;
-    console.log(tum);//false
+// // check "" is true or false
+//     var tum=(a="")?true:false;
+//     console.log(tum);//false
 
-// check "string" is true or false
-    var tum=(a="hii im abhitha")?true:false;
-    console.log(tum);//true
+// // check "string" is true or false
+//     var tum=(a="hii im abhitha")?true:false;
+//     console.log(tum);//true
 
-// check empty square is true or false
-    var pum=(a=[])?true:false;
-    console.log(pum);//true
+// // check empty square is true or false
+//     var pum=(a=[])?true:false;
+//     console.log(pum);//true
 
-//check the given array is true or false
-   var a=[2,6];
-   var bum=(a[0]==2)?true:false;
-   console.log(bum);//true
+// //check the given array is true or false
+//    var a=[2,6];
+//    var bum=(a[0]==2)?true:false;
+//    console.log(bum);//true
 
-//check the given array is true or false 
-   var a=[2,6];
-   var bum=(a[0]==6)?true:false;
-   console.log(bum);//false
+// //check the given array is true or false 
+//    var a=[2,6];
+//    var bum=(a[0]==6)?true:false;
+//    console.log(bum);//false
 
-//check nan is true or false
-var rum=(a=NaN)?true:false;
-console.log(rum);//false
+// //check nan is true or false
+// var rum=(a=NaN)?true:false;
+// console.log(rum);//false
 
-//check undefined is true or false
-var aum=(a=undefined)?true:false;
-console.log(aum);//false
+// //check undefined is true or false
+// var aum=(a=undefined)?true:false;
+// console.log(aum);//false
 
-//check empty flower brackets is true or false
-var zum=(a={})?true:false;
-console.log(zum);//true
+// //check empty flower brackets is true or false
+// var zum=(a={})?true:false;
+// console.log(zum);//true
 
-//check key value pairs is true or false
-var a={name:"abhi"};
-var qum=(a[name]=="abhitha")?true:false;
-console.log(qum);//false
+// //check key value pairs is true or false
+// var a={name:"abhi"};
+// var qum=(a[name]=="abhitha")?true:false;
+// console.log(qum);//false
 
-// check empty quotes between space is true or false
-var dum=(a=" ")?true:false;
-console.log(dum);//true
+// // check empty quotes between space is true or false
+// var dum=(a=" ")?true:false;
+// console.log(dum);//true
 
-//check true is true or false
-var aum=(a=true)?true:false;
-console.log(aum);//true
+// //check true is true or false
+// var aum=(a=true)?true:false;
+// console.log(aum);//true
 
-//check false is true or false
-var eum=(a=false)?true:false;
-console.log(eum);//false
+// //check false is true or false
+// var eum=(a=false)?true:false;
+// console.log(eum);//false
+
+//conditional statements
+//if and else conditional statement
+var day="Wednesday";
+if(day=="Monday"){
+    console.log("the day is monday");
+}
+else{
+    console.log("the day is not monday");
+}
 
 
+//if,else if and else statement
+var today="saturday";
+if(today=="tuesday"){
+    console.log("today is tuesday");
+}
+   else if(today=="wednesday"){
+    console.log("today is wednesday");
 
+}
+else if(today=="saturday"){
+    console.log("today is saturday");
+
+}
+else{
+    console.log("today is not today");
+}
+
+//switch statement using case and break
+
+var trafficLight = "green";
+
+ 
+switch (trafficLight) {
+    case "red":
+        message = "Stop immediately.";
+        break;
+    case "yellow":
+        message = "Prepare to stop.";
+        break;
+    case "green":
+        message = "Proceed or continue driving.";
+        break;
+    default:
+        message = "Invalid traffic light color.";
+}
+ 
+console.log(message);
 </script>
 
 </body>
